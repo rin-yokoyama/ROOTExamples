@@ -1,0 +1,10 @@
+#ifndef ROOT_EXAMPLES_PROOF_TREE_ANALYSIS_LIBRARY_CONFIG_H
+#define ROOT_EXAMPLES_PROOF_TREE_ANALYSIS_LIBRARY_CONFIG_H
+
+#include <string>
+std::string getExampleDataLibDir()
+{
+	return "@CMAKE_INSTALL_PREFIX@/lib/";
+}
+
+#endif
