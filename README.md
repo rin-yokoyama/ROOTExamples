@@ -32,6 +32,8 @@ module load ROOTExamples
 ```
 or just add install/bin to your PATH and install/lib to your LD_LIBRARY_PATH
 
+If you use Visual Studio 2019, clone this repository from [File]->[Clone or checkout code] and add a configuration "Linux-Debug" for building on a remote machine or "WSL-Debug" for your local Windows Subsystem for Linux. Then, [Build]->[install ROOTExamples] to install.
+
 ## Usage
 Just execute the FillGaus then ProofTreeAnalysis
 ```
