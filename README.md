@@ -19,15 +19,25 @@ It shows how to
 It can run either on PROOF or as a local process. Switch off PROOF to debug your Selector.
 
 ## Installation
->mkdir build
->cd build
->cmake ..
->make install
+```
+mkdir build
+cd build
+cmake ..
+make install
+```
+You can use "module" to load paths
+```
+module use -a [install_dir]/share/modulefiles
+module load ROOTExamples
+```
+or just add install/bin to your PATH and install/lib to your LD_LIBRARY_PATH
 
 ## Usage
 Just execute the FillGaus then ProofTreeAnalysis
->FillGaus
->ProofTreeAnalysis
+```
+FillGaus
+ProofTreeAnalysis
+```
 
 ## Requirements
 ROOT6 and cmake3 are required
