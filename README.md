@@ -16,6 +16,7 @@ It shows how to
 - start PROOF processes from a stand alone program.
 - pass arguments (parameters) to PROOF workers dynamically in the program.
 - write a histogram or a tree object to a file.
+
 It can run either on PROOF or as a local process. Switch off PROOF to debug your Selector.
 
 ## Installation
