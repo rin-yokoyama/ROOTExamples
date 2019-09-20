@@ -6,7 +6,7 @@ project(ROOTExamples CXX)
 # Add in CMAKE_PREFIX_PATH the installation prefix for ROOT 
 list(APPEND CMAKE_PREFIX_PATH $ENV{ROOTSYS})
 # You need to add COMPONENTS according to what you want to do.
-find_package(ROOT REQUIRED COMPONENTS RIO Net Proof)
+find_package(ROOT REQUIRED COMPONENTS Core RIO Net Hist Tree Proof)
 # Include ROOT cmake macros
 include(${ROOT_USE_FILE})
 

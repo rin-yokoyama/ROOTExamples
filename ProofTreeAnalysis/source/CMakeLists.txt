@@ -6,6 +6,7 @@ ROOT_GENERATE_DICTIONARY(ExampleDataDict
 )
 # Generate a shared library for these objects.
 add_library(ExampleDataLib SHARED ExampleDataDict.cxx ExampleSelector.cpp)
+target_link_libraries(ExampleDataLib ${ROOT_LIBRARIES})
 
 # An object for filling a tree with random Gaussian distribution
 add_library(FillGausObjects OBJECT FillGaus.cpp)
