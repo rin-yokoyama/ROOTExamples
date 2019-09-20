@@ -40,6 +40,6 @@ ProofTreeAnalysis
 ```
 
 ## Requirements
-ROOT6 and cmake3 are required
+ROOT (v6.14.00 or larger) and cmake3 are required
 
 
