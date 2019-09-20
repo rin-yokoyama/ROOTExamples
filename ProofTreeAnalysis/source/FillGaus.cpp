@@ -15,7 +15,7 @@
 const UInt_t kNumbers = 1000000U;
 // The number of workers
 const UInt_t kNWorkers = 2U;
-// Number of entries to fill per worker
+// The number of entries to fill per worker
 const auto kWorkSize = kNumbers / kNWorkers;
 
 // An example function to fill data to the tree with random Gaussian events.

@@ -35,7 +35,7 @@ const std::string kOutputFileName = "output_tree.root";
 // In this example the ExampleSelector will add kParameter to the input values.
 const Double_t kParameter = 10.;
 
-// Number of processes to run
+// The number of processes to run
 const UInt_t kNWorkers = 2U;
 
 int main(int argc, char** argv) {

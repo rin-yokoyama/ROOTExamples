@@ -1,3 +1,7 @@
+// This file defines a function that reruns a string of the path to the 
+// install/lib dir.
+// cmake will replace install path and generate a header file in generated/
+// before compilation.
 #ifndef ROOT_EXAMPLES_PROOF_TREE_ANALYSIS_LIBRARY_CONFIG_H
 #define ROOT_EXAMPLES_PROOF_TREE_ANALYSIS_LIBRARY_CONFIG_H
 

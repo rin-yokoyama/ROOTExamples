@@ -151,7 +151,7 @@ void ExampleSelector::SlaveTerminate() {
 void ExampleSelector::Terminate() {
 	// Terminate() is called only in the client process
 
-	// If there is a histogram in the output list (i.e. merge_tree_ = true),
+	// If there is a histogram in the output list (i.e. merge_tree_ = false),
 	// create a file in the client process and write it to the file.
 	auto hist = GetOutputList()->FindObject("h_output_value");
 	if (hist) {
