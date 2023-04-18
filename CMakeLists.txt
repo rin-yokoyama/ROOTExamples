@@ -15,4 +15,5 @@ include(${ROOT_USE_FILE})
 set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR}/install CACHE PATH "install dir" FORCE)
 
 add_subdirectory(ProofTreeAnalysis)
+add_subdirectory(RDataFrameAnalysis)
 add_subdirectory(share)
