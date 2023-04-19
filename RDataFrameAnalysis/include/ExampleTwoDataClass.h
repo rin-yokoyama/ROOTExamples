@@ -49,6 +49,7 @@ public:
 	virtual ~ExampleOutputDataClass() {}
 
 	Double_t GetData() const { return data_; }
+	void SetData(const Double_t &data) { data_ = data; }
 
 protected:
 	Double_t data_;
